@@ -28,7 +28,11 @@ In this repository you will get information that helps you assemble the device, 
 Storage Room - C
 
 ## In The Box
-
+In the Robot-Vision Starter Kit, we have 3 layers of components. Please follow the pictures when you packing them back to the box. 
+![alt text](images/Dobot_magician_vision_kit_layer_distribution.jpg)
+![alt text](images/Dobot_magician_vision_kit_top_layer.jpg)
+![alt text](images/Dobot_magician_vision_kit__middle_layer.jpg)
+![alt text](images/Dobot_magician_vision_kit_bottom_layer.jpg)
 
 ## How To Make It Works
 
