@@ -76,3 +76,5 @@ After finish using the device, it is important to turn off, disassemble and put 
 ## More Documentations
 * For details how to operate Dobot Magician with DobotStudio APP, please see [here](https://www.youtube.com/watch?v=kyeXwuf17IY)
 * For more detailed tutorial videos, you can find it [here](https://www.dobot.cc/videos-center.html?videogallery_id=20#videos).
+https://www.dobot.cc/downloadcenter/robot-vision-kit.html
+
