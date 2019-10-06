@@ -9,7 +9,6 @@ In this repository you will get information that helps you assemble the device, 
 * [How To Make It Works](#how-to-make-it-works)
   * [Assembe The Vision Kit](#assembly)
   * [Assembe Dobot Magician](#assembly)
-    * [SuctionCup](#suctioncup)
   * [Connecting With PC And Software Setup](#connecting-with-pc-and-software-setup)
 * [Operation](#operation)
   * [Quick start 1 - Teaching and Playback](#quick-start-1---teaching-and-playback)
@@ -36,16 +35,14 @@ In the Robot-Vision Starter Kit, we have 3 layers of components. Please follow t
 
 ## How To Make It Works
 
-### Assemble The Vision Kit.
-    1. Fix the camera flange support to the bottom of the extension pole with screws.
-    2. Connect the two extension poles.
-    3. Fix the end of the extension pole with Camera flange support to the camera holder using four M4*10 Hexagon Socket Button Head Screw.
-    4. Assemble camera surpport (1) and camera surpport (2) with two M4*10 hexagon socket head cap screws. Figure 2.5 shows the installation style.
-    5. Fix the camera support to the extension pole by adjusting the stationary fixture. (Note: Please adjust the height of the camera support based on site requirements. The camera support cannot hinder the movement of robot.)
-    6. Fix the camera to the camera mounting plate with three M3*8 hexagon socket countersunk head screws.
-    7. Fix the camera mounting plate to the camera support (2) with two M3*6 hexagon socket head cap screws and two washers.
-    8. Connect camera to computer with USB cable (plug blue connector into USB3.0 interface of computer).
-    9. Adjust the camera parameter.
+### Assemble Camera.
+    1.  Fix the camera flange bearing at the bottom of the extension rod by screws, and connect the two extension rods.
+    2.  Fix the camera flange bearing with at the camera plate by 4 M5*12 hexagonal screws.
+    3. Fix the industrial camera in the center of the fixture and adjust the spacing.
+    4.  After assembling the camera support, fit it on the connecting rod and adjust the fixture on the camera support so that the camera support is fixed (about 50cm from the base plate).
+    5.  Pass the light source through the industrial camera, tighten three fixing knobs on the light source kit to lock it on the camera, connect the power supply.
+    
+    ![alt text](images/camera_installation.jpg)
     
 ### Adjust The Camera Parameter.
     1. Install MVS software on your computer. You can find the installation package with the installation package of DobotVisionStudio.
