@@ -7,13 +7,10 @@ In this repository you will get information that helps you assemble the device, 
 * [Where To Find](#where-to-find)
 * [In The Box](#in-the-box)
 * [How To Make It Works](#how-to-make-it-works)
-  * [Assembe The Vision Kit](#assembly)
-  * [Assembe Dobot Magician](#assembly)
-  * [Connecting With PC And Software Setup](#connecting-with-pc-and-software-setup)
-* [Operation](#operation)
-  * [Quick start 1 - Teaching and Playback](#quick-start-1---teaching-and-playback)
-  * [Quick start 2 - Writing and Drawing](#quick-start-2---writing-and-drawing)
-  * [Quick start 3 - Blockly](#quick-start-3---blockly)
+  * [Assemble Camera](#assemble-camera)
+  * [Assemble Dobot Magician](#assemble-dobot-magician)
+  * [Camera Calibration](#camera-calibration)
+  * [Parameter Adjustment](#parameter-adjustment)
 * [Functions](#functions)
 * [SDK](#sdk)
   * [SDK Demos Content](#sdk-demos-content)
@@ -34,8 +31,8 @@ In the Robot-Vision Starter Kit, we have 3 layers of components. Please follow t
 ![alt text](images/Dobot_magician_vision_kit_bottom_layer.jpg)
 
 ## How To Make It Works
-
-### Assemble Camera.
+Since the vision kit is from the old version, the document in Dobot magician website doesn't woke. Please check the detailed manauls [here](https://www.generationrobots.com/media/dobot-vision-kit-quickstart-guide.pdf).
+### Assemble Camera
    1.  Fix the camera flange bearing at the bottom of the extension rod by screws, and connect the two extension rods.
    2.  Fix the camera flange bearing with at the camera plate by 4 M5*12 hexagonal screws.
    3. Fix the industrial camera in the center of the fixture and adjust the spacing.
