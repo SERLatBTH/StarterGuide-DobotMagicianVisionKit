@@ -36,32 +36,39 @@ In the Robot-Vision Starter Kit, we have 3 layers of components. Please follow t
 ## How To Make It Works
 
 ### Assemble Camera.
-    1.  Fix the camera flange bearing at the bottom of the extension rod by screws, and connect the two extension rods.
-    2.  Fix the camera flange bearing with at the camera plate by 4 M5*12 hexagonal screws.
-    3. Fix the industrial camera in the center of the fixture and adjust the spacing.
-    4.  After assembling the camera support, fit it on the connecting rod and adjust the fixture on the camera support so that the camera support is fixed (about 50cm from the base plate).
-    5.  Pass the light source through the industrial camera, tighten three fixing knobs on the light source kit to lock it on the camera, connect the power supply.
+   1.  Fix the camera flange bearing at the bottom of the extension rod by screws, and connect the two extension rods.
+   2.  Fix the camera flange bearing with at the camera plate by 4 M5*12 hexagonal screws.
+   3. Fix the industrial camera in the center of the fixture and adjust the spacing.
+   4.  After assembling the camera support, fit it on the connecting rod and adjust the fixture on the camera support so that the camera support is fixed (about 50cm from the base plate).
+   5.  Pass the light source through the industrial camera, tighten three fixing knobs on the light source kit to lock it on the camera, connect the power supply.
     
-    ![alt text](images/camera_installation.jpg)
+   ![alt text](images/camera_installation.jpg)
     
-### Adjust The Camera Parameter.
-    1. Install MVS software on your computer. You can find the installation package with the installation package of DobotVisionStudio.
-    2. Run MVS you should see the Dobot in the left side USB menu.
-    3. Click the connect button next to the Dobot in the list.
-    4. Click the play button at the top of the middle section (workspace).
-    5. You should see the camera feed in the software.
-    6. Adjust focal length, apreture, and exposure time according to image.
+### Assemble Robot Magician 
+   The Dobot arm place on the floor, adjust the camera bracket, ensure the camera can be observed in the basic mechanical arm motion range. Connect the power and plug in the USB with the computer, the visual package is completed.
 
-### Assemble The Light Source.
-    1. Attach the light source kit to the camera, and fasten the kit with its three fixing knobs.
-    2. Connect light source switch to light source.
-    3. Connect light source switch to power interface of Dobot Magician.
-    4. Connect light source switch to the power adapter of Dobot Magician.
+### Camera Calibration
+   1. Connect camera to computer by USB cable, open the usbVideo.exe software, click "Start" button to regulate focal length of the camera manually (note: Take off the light source before regulating the focal length, and put it back after the regulation process.), regulate the camera view to the best condition, and close the usbVideo.exe software. 
+   ![alt text](images/camera_calibration_1.jpg)
+    2. Power on Dobot Magician, connect the robot arm to the computer by USB cable, open VisionDemo.exe software, and click “Click here to check the camera whether has been opened!” button, open the light source light and regulate it to the suitable luminance until the clear image is shown.
+     ![alt text](images/camera_calibration_2.jpg)
+    3. Put the calibration board under camera in black and white board, open VisionDemo.exe, click "setting", choose "Matrix Calculate" function, click "GetImage", the calibration board will show, red, grean and blue, 3 color point, the softeware will automated record the coordinate parameter of these three points under the camera (note: if the camera cannot detect the calibration point, adjust the light from light source till the camera can read the calibration board).
+     ![alt text](images/camera_calibration_3.jpg)
+    4. Use Penholder kit as the end tool of the robot arm, and according to the sequence of red, green and blue, respectively move the pen tip at the end of robotic arm to the three points (manually drag the robotic arm to the corresponding point, use the software inching Dobot Jog function to operate fine adjustment. At this time, the Matrix Calculate can be closed, and then it can be opened after the fine adjustment). Respectively click three buttons, namely Red Point, Green Point, Blue Point, when the pen tip reaching one point to record the coordinate of the three points respectively, click ok button to finish the calibration, and exit the Matrix Calculate. (Note: the sequence of the three points shall be calibrated in turn, red→green→blue, and the order shall not be incorrect).
+     ![alt text](images/camera_calibration_4.jpg)
     
-### Assemble Dobot Magician
-    1. Make sure you have the Dobot Magician assembled and ready.
-    2. Fix Dobot Magician to the platform in the empty area.
-    3. Adjust the camera support to ensure that the camera can view the workspace of Dobot Magician.
+    
+### Parameters Adjustment
+   1. HSV(Hue Saturation Value) debug adjustment
+   Open the HSV Debug, wherein, H, S and V refer to hue, saturation value, and lightness; the value lowH and highH, lowS and highS, and lowV and highV are the hue range, storability range and lightness range between the two values. minArea and maxArea are the pixel area for filtering the influence of small objects. Click GetImage to activate adjustment bar. Firstly, select a color (note: remember the object position on the display window of the target object to be adjusted after acquiring the iamge , such as green shown in Figure 1), then adjust the HSG parameters range of target object, until the target object is completely displayed on the acquired image while objects of other colors completely disappeare. In Figure 2 an example of HSV adjustment for green color is demonstrated. Fellow the same steps to set parameters for other colors. Figure 3 for yellow objects minArea and maxArea regulation, in turn check other colors, adjust and debug.
+   ![alt text](images/debug_adjustment.jpg)
+   2. DobotParams adjustment
+   After HSV adjustment, open DobotParams, set the coordinate of setting place of the categorized objects, click ok, finish the setting place setttings(Detaild information of setting the operating parameters please refer to the user manual of Dobot Magician).
+   ![alt text](images/DobotParams_adjustment.jpg)
+   3. Machine Vison system operation
+   The robot vision system is ready to work after setting the parameters. Click Start button, and the robot arm will sort the object according to color.
+    ![alt text](images/Machine_Vision_system_operation.jpg)
+
     
 ## Functions
 
