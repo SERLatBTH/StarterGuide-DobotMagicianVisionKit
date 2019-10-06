@@ -20,7 +20,7 @@ In this repository you will get information that helps you assemble the device, 
 Storage Room - C
 
 ## In The Box
-In the Robot-Vision Starter Kit, we have 3 layers of components. Please follow the pictures when you packing them back to the box. 
+In the Robot-Vision Starter Kit, we have 3 layers of components. Please follow the pictures when you are packing the vision kit. 
 ![alt text](images/Dobot_magician_vision_kit_layer_distribution.jpg)
 ![alt text](images/Dobot_magician_vision_kit_top_layer.jpg)
 ![alt text](images/Dobot_magician_vision_kit_middle_layer.jpg)
@@ -69,8 +69,8 @@ Since the vision kit is from the old version, the document in Dobot magician web
 
 
 ## Other Related Software and Third Party SDK
-The software from dobot website doesn't work since missing drive and dongle file. But there is a software called usbVideo available from the camera company. You can download the install file of driver, sdk and usbVideo from this repository. 
-* The sdk is available as a library file in the format .lib, .exp, .dll, .h, .cs, .vb. 
+The software from dobot website doesn't work since it is missing driver and dongle. But there is a software called usbVideo available from the camera company with driver and sdk. You can download the installation file for the driver (driver_setup_2016.09.08.exe), sdk (sdk_setup_2016.09.08.exe) and usbVideo (usbVideo_setup_2016.09.08.exe) from this repository. The driver, sdk and software are tested and working on Windows 10.
+* The SDK is available as a library file in the format .lib, .exp, .dll, .h, .cs, .vb. 
 * The SDK installation inclues samples in multiple languages, e.g. C#, C++, VB. 
 * You can get the image from camera, can manupilate the camera parameters like explosure, focus. The software is tested in Windows 10 and it works. 
 
