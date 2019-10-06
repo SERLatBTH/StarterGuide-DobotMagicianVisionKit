@@ -10,7 +10,7 @@ In this repository you will get information that helps you assemble the device, 
   * [Assemble Camera](#assemble-camera)
   * [Assemble Dobot Magician](#assemble-dobot-magician)
   * [Camera Calibration](#camera-calibration)
-  * [Parameter Adjustment](#parameter-adjustment)
+  * [Parameters Adjustment](#parameters-adjustment)
 * [Functions](#functions)
 * [Other Related Software and Third Party SDK](#other-related-software-and-third-party-sdk)
 * [Putting The Device Back](#putting-the-device-back)
