@@ -12,11 +12,7 @@ In this repository you will get information that helps you assemble the device, 
   * [Camera Calibration](#camera-calibration)
   * [Parameter Adjustment](#parameter-adjustment)
 * [Functions](#functions)
-* [SDK](#sdk)
-  * [SDK Demos Content](#sdk-demos-content)
-  * [Source code](#source-code)
-  * [API Interface Description](#api-interface-description)
-  * [Examples On Github](#examples-on-github)
+* [Other Related Software and Third Party SDK](#other-related-software-and-third-party-sdk)
 * [Putting The Device Back](#putting-the-device-back)
 * [More Documentations](more-documentations)
 
@@ -68,11 +64,12 @@ Since the vision kit is from the old version, the document in Dobot magician web
 
     
 ## Functions
+1. Provide vision for the dobot as a static images or video
+2. Provide the workspace for the dobot to integrate with camera
 
 
-
-## SDK
-The software from dobot website doesn't work since missing drive and dongle file. But there is a software called usbVideo available from the camera company. You can download the sdk and usbVideo here[]. 
+## Other Related Software and Third Party SDK
+The software from dobot website doesn't work since missing drive and dongle file. But there is a software called usbVideo available from the camera company. You can download the install file of driver, sdk and usbVideo from this repository. 
 * The sdk is available as a library file in the format .lib, .exp, .dll, .h, .cs, .vb. 
 * The SDK installation inclues samples in multiple languages, e.g. C#, C++, VB. 
 * You can get the image from camera, can manupilate the camera parameters like explosure, focus. The software is tested in Windows 10 and it works. 
