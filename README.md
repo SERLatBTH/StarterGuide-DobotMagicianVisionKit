@@ -72,7 +72,7 @@ Since the vision kit is from the old version, the document in Dobot magician web
 
 
 ## SDK
-
+The software from dobot website doesn't work since missing drive and dongle file. But there is a software called usbVideo available from the camera company. You can download the sdk and usbVideo here[]. The sdk is available as a library file in the format .lib, .exp, .dll, .h, .cs, .vb. The SDK installation inclues samples in multiple languages, e.g. C#, C++, VB. You can get the image from camera, can manupilate the camera parameters like explosure, focus. The software is tested in Windows 10 and it works. 
 
 
 ## Putting The Device Back
