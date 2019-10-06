@@ -37,7 +37,7 @@ Since the vision kit is from the old version, the document in Dobot magician web
     
    ![alt text](images/camera_installation.jpg)
     
-### Assemble Robot Magician 
+### Assemble Dobot Magician 
    The Dobot arm place on the floor, adjust the camera bracket, ensure the camera can be observed in the basic mechanical arm motion range. Connect the power and plug in the USB with the computer, the visual package is completed.
 
 ### Camera Calibration
