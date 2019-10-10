@@ -72,7 +72,7 @@ Since the vision kit is from the old version, the document in Dobot magician web
 
 
 ## SDK
-The software from dobot website doesn't work since the vision kit we have is an old version. But you can download the correlated demo, vision launch software and program software. In the uploaded files, you will have the following the content and related manuals.
+The software from dobot website doesn't work since the vision kit we have is an old version. But you can download the correlated SDK from the link https://bthse-my.sharepoint.com/:u:/g/personal/xcn_bth_se/Eb4ZNFh9BxxFpDRXQatBtykBeYtYL5YHlkY5Gd-I9yTNOw?e=cQsPYu. 
 
 DobotAndCameraDLL
 * 1.CameraDLL: The function library of camera opening, closing, setting parameters and so on.
