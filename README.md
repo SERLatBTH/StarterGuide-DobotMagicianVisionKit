@@ -71,11 +71,44 @@ Since the vision kit is from the old version, the document in Dobot magician web
 2. Provide the workspace for the dobot to integrate with camera
 
 
-## Other Related Software and Third Party SDK
-The software from dobot website doesn't work since it is missing driver and dongle. But there is a software called usbVideo available from the camera company with driver and sdk. You can download the installation file for the driver (driver_setup_2016.09.08.exe), sdk (sdk_setup_2016.09.08.exe) and usbVideo (usbVideo_setup_2016.09.08.exe) from this repository. The driver, sdk and software are tested and working on Windows 10.
-* The SDK is available as a library file in the format .lib, .exp, .dll, .h, .cs, .vb. 
-* The SDK installation inclues samples in multiple languages, e.g. C#, C++, VB. 
-* Using the SDk you can get the image from the camera, and manipulate the camera parameters like explosure and focus. The software is tested in Windows 10 and it works. 
+## SDK
+The software from dobot website doesn't work since the vision kit we have is an old version. But you can download the correlated demo, vision launch software and program software. In the uploaded files, you will have the following the content and related manuals.
+
+DobotAndCameraDLL
+* 1.CameraDLL: The function library of camera opening, closing, setting parameters and so on.
+* 2.DobotDLL: The function library of Dobot manipulator operation.
+* 3.VisionDLL: The Visual algorithm library of color sorting, shape sorting, normal vector adjustment and so on.
+
+SampleApps
+* 1.VisionDemo:
+◦It is used for user learning of calibration of robot arm and vision, color and size extraction, sorting operation, etc.
+* 2.VisionDemo-S:
+◦This document describes the calibrating, color&size extracting, sorting function divide into three sub programs to facilitate users to understand how to achieve all function step by step.
+
+SamplesSourceCode
+* 1.Qt-VisionDemo:
+◦This source code has completed all the functions: 1, including the parameter setting of the Dobot, the movement of the Dobot, and the alarm cleaning of the Dobot. 2, the connection of the camera, the parameter setting, and so on. 3, the load and call of the algorithm library. Is the collection of calibration, debugging HSV, running sorting as one of the source code.
+
+* 2.Qt-VisionDemo-S:
+◦Calibration: The source code for robot arm and vision calibration.
+◦HSV_Debug: The source code for color and size feature extraction.
+◦SortColor: According to the previous calibration and HSV_Debug, the source code for completing the sorting action.
+
+* 3.PythonDemo:
+◦This source provides the Demo that combines OpenCV with robot arm and vision in Python.
+
+* 4.QtDemo-Halcon:
+◦This source code is in the Qt development environment, called the Halcon API for feature extraction.
+
+* 5.VisionDll:
+◦This source code provides visual algorithm library source, such as calibration, color feature extraction, shape size extraction, object migration direction, etc.
+
+Drive
+* 1.DobotDriver: Dobot USB drive.
+* 2.CameraDriver: Camera USB drive.
+* 3.usbVideo_setup: Camera USB driver and camera parameter settings and other tools.
+
+
 
 
 ## Putting The Device Back
